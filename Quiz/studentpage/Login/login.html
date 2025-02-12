@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Log In</title>
+  <link href="login.css" rel="stylesheet"/>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+    
+  <div class="login-container">
+    <img id="popup-image" alt="Success Image" src="image 3.png" class="login-image hidden" height="150" width="250"/>
+    <form class="login-form" onsubmit="handleSubmit(event)">
+      <div class="login-title">Log In</div>
+      <label for="name">Name:</label>
+      <input id="name" name="name" required="" type="text"/>
+      <label for="password">Password:</label>
+      <input id="password" name="password" required="" type="password"/>
+      <button type="submit">Submit</button>
+    </form>
+   
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

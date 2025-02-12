@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eaf0dc;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #b5c99a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-btn {
+    background-color: #a7b991;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.profile {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #8fa98f;
+}
+
+.courses {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.course {
+    background-color: #fff;
+    padding: 12px;
+    margin: 6px 0;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid #a7b991;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.course:hover {
+    background-color: #eaf0dc;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f8eb;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4e2b5;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 65%;
+    border: 1px solid #a7b991;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.topics {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.topics li {
+    background-color: #b8cfaa;
+    padding: 15px;
+    margin: 8px 0;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}

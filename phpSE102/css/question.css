@@ -1,0 +1,80 @@
+body {
+    background-color: #E3EED4; 
+    font-family: sans-serif; 
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #BAD8B6; 
+    width: 25%; 
+    padding: 1rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .profile-picture {
+    border-radius: 50%; 
+    width: 6rem; 
+    height: 6rem; 
+}
+
+.sidebar .course-item {
+    background-color: white; 
+    padding: 0.5rem; 
+    margin-bottom: 0.5rem; 
+    border-radius: 0.5rem; 
+    text-align: center; }
+
+.main-content {
+    flex: 1; 
+    padding: 2rem; 
+}
+
+.search-input {
+    width: 100%; 
+    padding: 0.5rem; 
+    border-radius: 9999px; 
+    background-color: #BAD8B6; 
+    border: none;
+}
+
+.search-container {
+    position: relative;
+}
+
+.quiz-container {
+    background-color: BAD8B6; 
+    padding: 2rem; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.quiz-question {
+    background-color: #BAD8B6; 
+    padding: 0.5rem; 
+    border-radius: 1rem; 
+    margin: 0.5cm;
+}
+
+.submit-button {
+    background-color: #6B9071;
+    color: white; 
+    padding: 0.5rem 2rem; 
+    border-radius: 9999px; 
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #3b823a; 
+}

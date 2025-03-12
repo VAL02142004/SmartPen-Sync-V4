@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #c6e8c2;
+    padding: 20px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: block;  /* Ensures the image is a block-level element */
+    margin-left: auto;
+    margin-right: auto;  /* Centers the image horizontally */
+}
+
+.sidebar .courses button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.sidebar .courses button:hover {
+    background-color: #e0f0e0;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex-grow: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.header-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-icons i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Subject List Styles */
+.subjects {
+    margin-bottom: 20px;
+}
+
+.subjects h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subjects .subject-list {
+    display: flex;
+    justify-content: center;  /* Centering the images horizontally */
+    gap: 20px;
+    flex-wrap: wrap;  /* Ensures the images wrap when there's not enough space */
+}
+
+.subjects .subject-list img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: block;  /* Makes the image a block-level element */
+    margin-left: auto;
+    margin-right: auto;  /* Centers the image horizontally */
+}
+
+/* Quizzes Section */
+.quizzes {
+    margin-bottom: 20px;
+}
+
+.quizzes h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.quizzes .quiz-list {
+    list-style: none;
+    padding: 0;
+}
+
+.quizzes .quiz-list li {
+    background-color: #BAD8B6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.quizzes .quiz-history {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    background-color: #BAD8B6;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.quizzes .quiz-history:hover {
+    background-color: #A4C8A0;
+}
+
+/* Hover Effect */
+.sidebar button, .quiz-list li, .sidebar a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar button:hover, .quiz-list li:hover, .sidebar a:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Show and hide subjects, quizzes based on search */
+.hidden {
+    display: none;
+}
+
+/* Search Bar Style */
+.search-bar {
+    margin: 20px 0;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* List styles */
+.quiz-list, .courses button {
+    list-style: none;
+    padding: 0;
+}
